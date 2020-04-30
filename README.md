@@ -1,3 +1,4 @@
+<!--Ctrl+Shift+V para abrir a markdown preview no VS Code-->
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
