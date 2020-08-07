@@ -1,19 +1,16 @@
-import './App.css';
-import React from 'react';
-import logo from './logo.svg';
+// import React, { Component } from 'react';//Versão antiga do React
+import React from 'react'; //Versão mais recente do React
 
-export function App() {
-  return (<div className="App">
-    <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo"/>
-        <p>
-            Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-            Learn React
-        </a>
-    </header>
-  </div>);
+
+/*O export é utilizado quando criamos módulos JavaScript para permitir que suas funções, 
+objetos ou valores primitivos sejam utilizados por outros scripts através de import*/
+export function App()
+{
+   return(
+      <div className="App">
+         
+      </div>
+   );
 }
-
+//Cada arquivo pode conter apenas um em cada arquivo
 export default App;
