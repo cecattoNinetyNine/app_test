@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 /*Recebe como primeiro argumenot o JSX que deve ser renderizado. O segundo argumento especifica
@@ -8,7 +9,7 @@ onde a aplicação deve ser exibida. Ver em public/index.html*/
 /*<App /> é um exemplo de React Component*/
 ReactDOM.render(
 	<React.StrictMode>
-
+		<App />
   	</React.StrictMode>,
 	document.getElementById('root')
 );
