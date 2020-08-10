@@ -23,12 +23,21 @@
 
 .Data
 {   
+    padding: 0px;
     position: absolute;
     width: 100%;
     display: flex;
+    flex-direction: row;
+    align-content: center;
     margin-top: 100px;
     border-bottom: solid 2px black;
 
+}
+
+.Data input
+{
+    flex: 1;
+    margin: 3px;
 }
 
 @media (max-width: 1440px)

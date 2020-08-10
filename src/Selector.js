@@ -9,7 +9,9 @@ export function Selector()
                 Intervalo (dd/mm/aaaa):
             </div>
             <div className="Data" id="divData">
-
+                <input className="From" id="inputFrom"></input>
+                <p> até </p>
+                <input className="To" id="inputTo"></input>
             </div>
         </div>
     );
