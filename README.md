@@ -1,6 +1,10 @@
 <!--Ctrl+Shift+V para abrir a markdown preview no VS Code-->
 # Programa que tem por objetivo trazer direto do site da Caixa Econômica Federal os resultados das loterias, especificando uma data de início, uma de fim e jogo
 
+## Instruções para iniciar
+
+Com o node, suas dependências e o React.js já instalados, no terminal ou no cmd, vá até o diretório "app_test" e dentro dele digite o comando "npm start". Após isso, será aberta uma janela no browser com o que já foi feito até agora.
+Obs: `AINDA NÃO ESTÁ PRONTO`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
