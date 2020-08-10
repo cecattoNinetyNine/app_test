@@ -8,11 +8,11 @@ export function Selector()
             <div className="Intervalo" id="divIntervalo">
                 Intervalo (dd/mm/aaaa):
             </div>
-            <div className="Data" id="divData">
-                <input className="From" id="inputFrom"></input>
+            <form className="Data" id="divData">
+                <input type="text" className="From" id="inputFrom" size="10" placeholder="dd/mm/aaaa"></input>
                 <p> até </p>
-                <input className="To" id="inputTo"></input>
-            </div>
+                <input type="text" className="To" id="inputTo" size="10" placeholder="dd/mm/aaaa"></input>
+            </form>
         </div>
     );
 }
