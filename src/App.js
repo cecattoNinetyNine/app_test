@@ -10,8 +10,8 @@ objetos ou valores primitivos sejam utilizados por outros scripts através de im
 export function App()
 {
    return(
-      <div className="App" id="divPrincipal">
-         
+      <div className="App" id="divApp">
+         <Selector />
       </div>
    );
 }

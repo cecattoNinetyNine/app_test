@@ -1,0 +1,57 @@
+.Selector
+{
+    border: solid 2px black;
+    position: absolute;
+    background-color: #0073e6;
+    width: 25%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.Intervalo
+{
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    padding: 7px 0px 7px 2px;/*Top Right Bottom Left*/
+    text-align: left;
+    margin: auto;
+    border-bottom: solid 2px black;
+    height: 35px;
+}
+
+.Data
+{   
+    position: absolute;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    border-bottom: solid 2px black;
+
+}
+
+@media (max-width: 1440px)
+{
+    .Intervalo
+    {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px)/*Aparelhos com largura máxima de 1080px*/
+{
+    .Selector
+    {
+        height: 30%;
+        width: 90%;
+    }
+
+    .Intervalo
+    {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-size: 25px;
+    }
+}
+
