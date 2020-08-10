@@ -40,10 +40,11 @@
 
 .Data input/*Quando a tag input estiver dentro de uma tag que use a classe Data, ela terá as seguintes configurações*/
 {
-    flex: 2;
+    flex: 3;
     margin: 3px;
     height: 40px;
     margin-bottom: -15px;
+    font-size: 20px;
 }
 
 .Data p

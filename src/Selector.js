@@ -9,9 +9,13 @@ export function Selector()
                 Intervalo (dd/mm/aaaa):
             </div>
             <form className="Data" id="divData">
-                <input type="text" className="From" id="inputFrom" size="10" placeholder="dd/mm/aaaa"></input>
+                <input type="text" className="From" id="inputFrom" maxLength="10" size="10" placeholder="dd/mm/aaaa"
+                pattern="[1-9]{2}+/[1-9]{2}+/[0-9]{4}" required></input>
+
                 <p> até </p>
-                <input type="text" className="To" id="inputTo" size="10" placeholder="dd/mm/aaaa"></input>
+
+                <input type="text" className="To" id="inputTo" maxLength="10" size="10" placeholder="dd/mm/aaaa"
+                pattern="[1-9]{2}+/[1-9]{2}+/[0-9]{4}" required></input>
             </form>
         </div>
     );
