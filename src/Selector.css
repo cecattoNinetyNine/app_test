@@ -34,13 +34,13 @@
 
 }
 
-.Data input
+.Data input/*Quando a tag input estiver dentro de uma tag que use a classe Data, ela terá as seguintes configurações*/
 {
     flex: 1;
     margin: 3px;
 }
 
-@media (max-width: 1440px)
+@media (max-width: 1440px)/*Aparelhos com largura máxima de 1440px*/
 {
     .Intervalo
     {
@@ -48,7 +48,7 @@
     }
 }
 
-@media (max-width: 800px)/*Aparelhos com largura máxima de 1080px*/
+@media (max-width: 800px)/*Aparelhos com largura máxima de 800px*/
 {
     .Selector
     {
