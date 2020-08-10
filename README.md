@@ -1,4 +1,7 @@
 <!--Ctrl+Shift+V para abrir a markdown preview no VS Code-->
+# Programa que tem por objetivo trazer direto do site da Caixa Econômica Federal os resultados das loterias, especificando uma data de início, uma de fim e jogo
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
